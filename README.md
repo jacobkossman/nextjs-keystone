@@ -1,5 +1,7 @@
 # Next.js + Keystone
 
+Updated to use [@apollo/client](https://github.com/apollographql/apollo-client).
+
 Keystone can be used as a data engine in Next.js applications without having to host a separate Keystone server. This is made possible by Keystone's `getContext` API.
 
 - **CRUD data within your Next.js server**: You can use Keystone data APIs directly in Next.js `getStaticProps` or `getServerSideProps` to CRUD data. ⚡️
